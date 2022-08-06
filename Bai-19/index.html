@@ -1,0 +1,35 @@
+<head>
+    <style>
+        html, body {
+            margin: 0;
+        }
+    
+        .box {
+            width: calc(120px / 2);
+            height: 120px;
+            background: rgb(red, green, blue);
+        }
+
+        .box::after {
+            content: "Xin chào các bạn";
+        }
+
+        a::after {
+            content: "("attr(herf)")";
+        }
+    </style>
+    </head>
+    
+    <body>
+        <div class="box" data-title="Đây là box màu hồng!"></div> 
+
+        <h1>CSS functions</h1>
+        <ul>
+            <li>var</li>
+            <li>linear-gradient</li>
+            <li>rgba</li>
+            <li>rgb</li>
+            <li>calc</li>
+            <li>attr</li>
+        </ul>
+    </body>
