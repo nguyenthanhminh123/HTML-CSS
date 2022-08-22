@@ -27,8 +27,16 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 46px;
     background-color: #000;
+}
+
+#nav {
+    display: inline-block;
 }
 
 #nav, .subnav {
@@ -85,7 +93,26 @@ html {
     font-size: 14px;
 }
 
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
 #slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/asset/img/slider/slider1.jpeg') top center / cover no-repeat;
 }
 
 #content {
@@ -95,3 +122,4 @@ html {
 #footer {
 
 }
+

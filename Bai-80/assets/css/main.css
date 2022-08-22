@@ -196,7 +196,6 @@ header {
 
 .header__qr-apps {
     display: flex;
-    justify-content: space-between;
 }
 
 .header__qr-link:nth-child(1) {
@@ -208,9 +207,9 @@ header {
 }
 
 .header__qr-download-img {
-    height: 16px;
-    margin: 0 12px;
+    height: 18px;
 }
+
 
 /* Header notification */
 .header__notify {

@@ -28,7 +28,8 @@ html {
 
 .gird_row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    margin-left: -5px;
+    margin-right: -5px;
 }
 
 
